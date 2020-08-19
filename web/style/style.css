@@ -131,7 +131,7 @@ body {
     color: #8899A6;
     background-color: transparent;
     border: none;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
 
@@ -149,18 +149,39 @@ body {
 
 /* start side bar */
 .tweets-sidebar-container {
-    background-color: burlywood;
     flex: 1;
     display: flex;
+    border-left: 1px solid rgba(136, 153, 166, 0.25);
 }
 
 .tweets-sidebar {
     display: flex;
+    flex-direction: column;
     margin: 1.2rem;
     height: 28rem;
-    width: 18rem;
-    background-color: #fff;
+    width: 16rem;
+    background-color: rgb(25, 39, 52);
+    border-radius: 1rem;
+    overflow: hidden;
 }
+
+.tweets-sidebar h3, li {
+    color: #FFFFFF;
+    margin: 0;
+    height: 2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    border-bottom: 1px solid rgba(136, 153, 166, 0.25);
+}
+
+.tweets-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 /* end side bar */
 
 
