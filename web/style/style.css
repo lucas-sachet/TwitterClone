@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'lowveticaregular';
+    src: url('lowvetica-webfont.woff2') format('woff2'),
+         url('lowvetica-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-color: #15202B;
+}
+
+/*  start Navigation menu */
+.navigation-container {
+    width: 18%;
+    max-width: 5rem;
+    min-width: 4rem;
+    border-right: 0.3px solid rgba(136, 153, 166, 0.25);
+}
+
+.navigation {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.navigation-logo {
+    padding-top: 2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.navigation i {
+    font-size: 1.5rem;
+}
+
+.navigation-home-link{
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-home {
+    color: #1da1f2;
+}
+
+.navigation-profile-container {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    margin-bottom: 3rem;
+    margin-top: 10rem;
+}
+
+.profile {
+    background-color: white;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: 1px solid #8899A6;
+}
+
+/* end navigation menu */
+
+/* start main */
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+}
+
+.main i {
+    color: #8899A6;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    padding-left: 0.8rem;
+    
+}
+
+.tweets-search-container {
+    height: 3rem;
+    padding: 2rem;
+    padding-top: 2rem;
+    
+}
+
+.tweets-search-container {
+    border-width: thin;
+    border-bottom: 1px solid rgba(136, 153, 166, 0.25);
+}
+
+.tweets-search-box {
+    width: 100%; 
+    background-color: #253341;
+    border: 1px solid #253341;
+    border-radius: 1.4rem;
+}
+
+.tweets-search-box i {
+    position:absolute;
+    padding: 12px;
+    padding-left: 12px; 
+}
+
+.tweets-search-box input {
+    width: 85%;
+    height: 2.4rem; 
+    outline: none;
+    padding-left: 3rem; 
+    padding-right: 1rem; 
+    color: #8899A6;
+    background-color: transparent;
+    border: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1rem;
+}
+
+#user-search-input::placeholder {
+    color: #8899A6;
+    opacity: 0.8;
+}
+
+.tweets-list {
+    margin: 1.2rem;
+}
+
+
+/* end main */
+
+/* start side bar */
+.tweets-sidebar-container {
+    background-color: burlywood;
+    flex: 1;
+    display: flex;
+}
+
+.tweets-sidebar {
+    display: flex;
+    margin: 1.2rem;
+    height: 28rem;
+    width: 18rem;
+    background-color: #fff;
+}
+/* end side bar */
+
+

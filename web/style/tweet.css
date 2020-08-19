@@ -1,0 +1,71 @@
+
+.tweet-container {
+    display: flex;
+    overflow: hidden;
+}
+
+
+.tweet-user-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 2.8rem;
+    width: 2.8rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.1rem;
+    border-radius: 50%;
+    border: 1px solid #15202B;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 0px 2px inset;
+}
+
+.tweet-user-info {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    
+ 
+}
+
+.tweet-user-fullname-container{
+    color: #FFFFFF;
+    padding-left: 0.4rem;
+    font-size: 1rem;
+}
+
+.tweet-user-name-container{
+    color: #8899A6;
+    padding-left: 0.4rem;
+    font-size: 0.8rem;
+}
+
+.tweet-user-separator{
+    color: #8899A6;
+    padding-left: 0.4rem;
+    font-size: 0.8rem;
+}
+
+.tweet-date-container{
+    color: #8899A6;
+    padding-left: 0.4rem;
+    font-size: 0.8rem;
+}
+
+.tweet-images-container {
+    margin: 0.4rem;
+    height: 12rem;
+    width: 90%;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+}
+
+.tweet-text-container{
+    margin: 0 auto;
+    padding: 0.4rem;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.74);
+}
+
