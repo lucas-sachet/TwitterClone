@@ -13,7 +13,7 @@ class Twitter {
                     count: count,
                 },
                 headers: {
-                    Authorization: "Bearer AAAAAAAAAAAAAAAAAAAAABLSGQEAAAAA%2FKpYsBnpHFXbHVWKEOuq7rAc7u4%3DLN5xxzEEIXx2k5NQzKcSoY07Lfl8YMZJ0QKRHvtNaYtRiEmF9i",    
+                    Authorization: `Bearer ${process.env.TWITTER_API_TOKEN}`,    
                 },
             })
         )
